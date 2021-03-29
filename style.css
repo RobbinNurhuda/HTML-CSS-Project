@@ -1,0 +1,187 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        font-family: "Lucida Grande";
+        background-color: #e3e5e6;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+
+    .clear {
+        clear: left;
+    }
+    
+    .container {
+        width: 100%;
+        padding: 0 30px;
+        margin: 0 auto;
+    }
+
+    /* Header */
+    header {
+        height: 70px;
+        width: 100%;
+        background-color: rgba(98, 101, 102, 0.9);
+        position :fixed;
+        top: 0;
+        z-index: 10;
+        }
+        
+    header h2 {
+        font-family: Algerian;
+        color: white;
+        margin-top: 20px;
+        cursor: pointer;
+        }
+
+    .header-left {
+        float: left;
+    }
+
+    .header-right {
+        float: right;
+    }
+
+    .header-right a {
+        line-height: 70px;
+        padding: 0 25px;
+        color: white;
+        display: block;
+        float: left;
+        transition: all 0.5s;
+    }
+
+    .header-right a:hover {
+        background-color: rgba(255, 255, 255, 0.856);
+        border-radius: 5px;
+        color: rgba(41, 41, 41, 0.774);
+    }
+
+    .fa {
+        margin-right: 5px;
+    }
+
+    header .container .menu-icon {
+        color: white;
+        float: right;
+        font-size: 25px;
+        padding: 21px 0;
+        display: none;
+      }
+
+    /* CV 1 */
+    .cv-wrapper {
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+
+    .summary1 {
+        margin: 0 0 50px 0;
+    }
+    
+    .sum {
+        float: left;
+        width: 50%;
+    }
+
+    .sum-icon img {
+    border-radius: 500px;
+    width: 50%;
+    border: 3px solid rgba(98, 101, 102, 0.9);
+    }
+
+    .summary1 .sum-icon p {
+    color: #5f5d60;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: justify;
+    padding-top: 50px;
+    }
+
+    .heading {
+        padding-top: 80px;
+        padding-bottom: 20px;
+        color: #5f5d60;
+    }
+
+    /* CV 2 */
+    .summary2 .sum-icon h3 {
+        margin-top: 30px;
+    }
+
+    .summary2 .sum-icon h3, .summary2 .sum-icon h4 {
+        text-align: left;
+        color: #5f5d60;
+    }
+
+    /* portofolio */
+    .portofolio-wrapper {
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+    
+    .portofolio-wrapper .heading {
+        padding-bottom: 30px;
+        color: #5f5d60;
+    }
+    
+    .heading h2 {
+        font-weight: normal;
+        border-bottom: 3px solid #5f5d60;
+        display: inline-block;
+    }
+    
+    .porto {
+        float: left;
+        width: 25%;
+    }
+
+    .porto-icon img {
+        border-radius: 5px;
+    }
+
+    .porto-icon p {
+        text-transform: uppercase;
+        color: #5f5d60;
+    }
+
+    /* contact */
+    .contact-wrapper {
+        padding-bottom: 30px;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+
+    .cont {
+        float: left;
+        width: 25%;
+    }
+
+    .cont-icon img {
+        width: 50%;
+        opacity: 0.7;
+    }
+
+    .cont-icon img:hover {
+        opacity: 1;
+    }
+
+    /* Footer */
+    footer {
+        background-color: rgba(98, 101, 102, 0.9);
+        color: white;
+        height: 40px;
+    }
+
+    footer h4 {
+        text-align: center;
+        line-height: 40px;
+    }

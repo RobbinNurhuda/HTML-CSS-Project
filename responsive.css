@@ -1,0 +1,77 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    /* CV 1 */
+    .summary1 .sum-icon p {
+        color: #5f5d60;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: justify;
+        margin-top: 0;
+    }
+
+    .porto {
+        width: 50%;
+    }
+
+    .cont {
+        width: 50%;
+    }
+}
+
+/* Untuk HP */
+@media all and (max-width: 670px) {
+    .header-right {
+        display: none;
+    }
+
+    header .container .menu-icon {
+        display: block;
+      }
+
+    .fa {
+        margin-right: 20px;
+    }
+
+    .sum {
+        width: 100%;
+    }
+
+    .summary1 .sum-icon p {
+        color: #5f5d60;
+        font-size: 20px;
+        text-align: justify;
+        margin-top: -10px;
+        }
+
+    .summary2 .sum-icon h2 {
+        padding-top: 30px;
+    }
+
+    .summary2 .sum-icon h3 {
+        margin-top: -10px;
+    }
+
+    .summary2 .sum-icon h3, .summary2 .sum-icon h4 {
+        text-align: center;
+    }
+
+    .porto {
+        width: 100%;
+    }
+
+    .cont {
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    .heading {
+        padding-bottom: 1px;
+        color: #5f5d60;
+    }
+    
+    footer h4 {
+        text-align: center;
+        font-size: 10px;
+        line-height: 40px;
+    }
+}
